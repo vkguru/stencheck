@@ -1,0 +1,50 @@
+/* :host {
+  display: block;
+} */
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.form-group {
+  width: 90%;
+}
+
+.form-control {
+  padding: 15px;
+  width: 100%;
+  border: 1px solid #333;
+}
+
+.form-control::placeholder {
+  font-family: 'lato', sans-serif;
+  font-size: 1.2em;
+}
+.form-control:focus-visible {
+  outline: 0;
+}
+
+.header-text {
+  font-size: 2em;
+}
+
+.submit {
+  padding: 15px;
+  margin-top: 30px;
+  width: 50%;
+  background-color: rgb(55, 241, 210);
+  border: 1px solid rgb(55, 241, 210);
+  color: #000;
+  font-family: 'lato', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: rgb(77 247 218);
+  box-shadow: #3333331f 0px 3px 5px;
+}
+
